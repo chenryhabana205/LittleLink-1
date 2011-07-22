@@ -19,7 +19,7 @@ INSTALLATION:
 2)  Install npm 'curl http://npmjs.org/install.sh | sh'
     note:  if you don't have curl installed, curl installation instructions are here (http://curl.haxx.se/docs/install.html)
 3)  Download github repo
-4)  Download dependencies 'npm install node.js express jade stylus nib redis'
+4)  Download dependencies 'npm install express jade stylus nib redis'
 5)  Run 'node app.js'
     note:  the app assumes you are able to run off of low-numbered ports.  If you are not able to do so, please change 'app.listen(80)' to 'app.listen(yourPortHere')
 

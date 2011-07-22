@@ -1,0 +1,22 @@
+!!!
+html
+  head
+    title LittleLink
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.2/jquery.min.js')
+    script(src='/javascripts/script.js')
+  body
+    div.container
+      h1 LittleLink
+      form(method='post')
+        input(type='text', value='', name='user[url]', id='url')
+        input(type='submit', value='littify', id='submit')
+      - if (link)
+        <br />
+        p your littified url is: <br />
+        a(href=link)
+            =link
+        <br />
+        p#bao ao for the lulz
+        p#unicorn
+        p#stop

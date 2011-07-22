@@ -1,0 +1,22 @@
+Basic URL-Shortening app written in node.js, express and redis.
+
+The code is very sloppy (a n00b, I am) so input is greatly appreciated.
+
+
+DEPENDENCIES:
+
+node.js
+express
+jade
+stylus
+nib
+redis
+
+INSTALLATION:
+
+1)  Download github repo
+2)  Download dependencies 'npm install node.js express jade stylus nib redis'
+3)  Run 'node app.js'
+    note:  the app assumes you are able to run off of low-numbered ports.  If you are not able to do so, please change 'app.listen(80)' to 'app.listen(yourPortHere')
+
+Enjoy!
